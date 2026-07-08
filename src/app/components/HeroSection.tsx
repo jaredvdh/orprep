@@ -8,16 +8,16 @@ export default function HeroSection() {
     <section className="relative w-full min-h-[92vh] overflow-hidden" aria-label="Hero">
       {/* Full-bleed background image */}
       <AppImage
-        src="https://img.rocket.new/generatedImages/rocket_gen_img_104bcc903-1775307034286.png"
-        alt="Operating theatre with anaesthetic equipment and monitoring screens in dim atmospheric lighting, deep teal shadows, clinical steel surfaces"
+        src="/assets/images/IMG_7551-1783469744684.jpeg"
+        alt="Real operating room with anaesthesia machine and monitoring equipment"
         fill
         priority
         className="object-cover object-center"
         sizes="100vw" />
       
-      {/* Gradient scrim — dark at bottom and left for text legibility */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/40 to-black/20" aria-hidden="true" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent" aria-hidden="true" />
+      {/* Teal/dark overlay for text legibility */}
+      <div className="absolute inset-0 bg-gradient-to-t from-teal-950/90 via-teal-900/60 to-teal-900/40" aria-hidden="true" />
+      <div className="absolute inset-0 bg-gradient-to-r from-teal-950/60 via-teal-900/20 to-transparent" aria-hidden="true" />
       {/* Content */}
       <div className="relative z-10 h-full min-h-[92vh] flex flex-col justify-between px-4 sm:px-8 md:px-12 pt-32 pb-10 md:pb-14 max-w-6xl mx-auto">
 
