@@ -1,6 +1,7 @@
 import React from 'react';
 import AppImage from '@/components/ui/AppImage';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
@@ -32,6 +33,18 @@ export default function HeroSection() {
 
           {/* Headline + CTA */}
           <div className="max-w-2xl space-y-6">
+            {/* App logo */}
+            <div className="flex items-center gap-3">
+              <Image
+                src="/assets/images/ORPrep_logo-1783469059204.png"
+                alt="ORPrep app logo — operating theatre scene with teal tones"
+                width={56}
+                height={56}
+                className="rounded-2xl shadow-lg flex-shrink-0"
+                priority
+              />
+              <span className="text-white/90 font-bold text-2xl tracking-tight">ORPrep</span>
+            </div>
             <h1 className="hero-title text-white">
               Digital preference cards for the anaesthetic team.
             </h1>
