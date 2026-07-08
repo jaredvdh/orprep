@@ -103,6 +103,14 @@ export default function HeroSection() {
               <span className="label-mono text-muted-foreground">Works fully offline</span>
               <span className="label-mono text-primary font-medium bg-primary/10 px-2 py-1 rounded-md">iOS Only</span>
             </div>
+
+            <div className="border-t border-border pt-4 flex items-center justify-between gap-2">
+              <div className="flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0" aria-hidden="true" />
+                <span className="label-mono text-emerald-400 font-medium">Free Trial</span>
+              </div>
+              <span className="label-mono text-muted-foreground">Price on App Store</span>
+            </div>
           </div>
         </div>
       </div>
